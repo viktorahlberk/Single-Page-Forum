@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap");
+
+body {
+  font-family: "Sansita Swashed", cursive;
+}
+
+main {
+  width: 80%;
+  margin: 100px auto 0 auto;
+}
+
+
+/* Main page */
+#postpageMain {
+  width: 60%;
+}
+
+.postContainerFooter {
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.singlePost {
+  border: 1px solid black;
+}
+
+.singlePost:hover>.postContainerHeader {
+  text-decoration: underline;
+}
+
+.singlePost:hover {
+  background-color: rgb(225, 222, 222);
+}
+
+#postpageContent {
+  display: flex;
+}
+
+
+/* Div containers */
+
+.newPostContainer {
+  display: flex;
+}
+
+.chatAndUsers {
+  display: flex;
+}
+
+.postsAndUsers {
+  display: flex;
+}
+
+#posts {
+  flex-grow: 4;
+}
+
+#postAndComments {
+  flex-grow: 4;
+}
+
+#users {
+  flex-grow: 1;
+}
+
+#chat {
+  flex-grow: 4;
+}
+
+/* View post page */
+
+#onePost .card {
+  border: none;
+}
+
+#comment {
+  border-bottom: 1px solid gray;
+  margin-left: 8%;
+}
+
+
+/* User list */
+.userlistContainer {
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid gray;
+  flex-basis: 15%;
+  text-align: center;
+  /* flex-grow: 1; */
+}
+
+.userDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.onlineIndicator {
+  /*font-size: 11px;*/
+  color: green;
+}
+
+
+/* #postsContainer {
+  margin-top: 80px;
+  flex-basis: 85%;
+} */
+
+/* .mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
