@@ -23,13 +23,12 @@ Then open your browser http://localhost:8081.
 
 <details>
 <summary>
-
+![login](https://github.com/viktorahlberk/real-time-forum/blob/main/images/spa-login.png)
+![register](https://github.com/viktorahlberk/real-time-forum/blob/main/images/spa-register.png)
+![postview](https://github.com/viktorahlberk/real-time-forum/blob/main/images/spa-postview.png)
+![newpost](https://github.com/viktorahlberk/real-time-forum/blob/main/images/spa-newpost.png)
+![chat](https://github.com/viktorahlberk/real-time-forum/blob/main/images/spa-chat.png)
 </summary>
 </details>
 <br>
-
-
-
-
-  
 Created by Viktor Ahlberk and Kristofer Kangro on learning purposes.
